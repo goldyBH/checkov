@@ -6,7 +6,7 @@
       "apiVersion": "2018-06-01",
       "type": "Microsoft.DBforMariaDB/servers",
       "location": "West Europe",
-      "name": "enabled",
+      "name": "pass",
       "sku": {
         "name": "B_Gen5_2",
         "size": "5120"
@@ -18,7 +18,7 @@
         "storageProfile": {
           "storageMB": "5120",
         "sslEnforcement": "Enabled",
-        "publicNetworkAccess": "False"
+        "publicNetworkAccess": false
         }
       }
     }
