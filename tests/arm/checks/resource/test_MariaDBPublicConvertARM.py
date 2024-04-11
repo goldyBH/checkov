@@ -11,7 +11,8 @@ class TestMariaDBPublicConvertARM(unittest.TestCase):
         report = Runner().run(root_folder=str(test_files_dir), runner_filter=RunnerFilter(checks=[check.id]))
         summary = report.get_summary()
         passing_resources = {
-              "Microsoft.DBforMariaDB/servers.pass",}
+              "Microsoft.DBforMariaDB/servers.pass",
+        }
         failing_resources = {
                "Microsoft.DBforMariaDB/servers.fail",
          }
